@@ -72,7 +72,7 @@ const YagyaAboutSection = () => {
   );
 
   return (
-    <section className="py-20 md:py-28 bg-amber-50 section-pulse font-inter relative overflow-hidden">
+    <section className="py-20 md:py-28 bg-white section-pulse font-inter relative overflow-hidden">
       <style>{customStyles}</style>
       
       {/* Subtle Background Pattern */}
@@ -98,13 +98,13 @@ const YagyaAboutSection = () => {
             </p>
 
             <div className="p-6 bg-white rounded-xl shadow-xl border-l-4 border-amber-600 transition-all duration-500 hover:border-l-8 hover:shadow-2xl">
-                <p className="text-xl italic text-gray-800 font-semibold">
+                <p className="text-xl italic text-amber-500 font-semibold">
                     "Through the power of fire, mantra, and intention, Yagya invokes divine blessings to heal, protect, and empower your life."
                 </p>
             </div>
             
             <p className="text-lg text-gray-700 mt-6 leading-relaxed">
-              Every Yagya performed through Veda Structure is based on **authentic Vedic scriptures** — conducted by qualified Pandits from Kashi, trained in the Maharishi & Kashi tradition. This guarantees the purity and efficacy of your ritual.
+              Every Yagya performed through Veda Structure is based on authentic Vedic scriptures — conducted by qualified Pandits from Kashi, trained in the Maharishi & Kashi tradition. This guarantees the purity and efficacy of your ritual.
             </p>
           </div>
 

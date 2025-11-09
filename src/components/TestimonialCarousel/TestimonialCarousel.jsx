@@ -76,7 +76,7 @@ const TestimonialCarousel = () => {
   const currentTestimonial = testimonials[activeIndex];
 
   return (
-    <section className="py-12 md:py-16 bg-amber-50 font-inter relative overflow-hidden">
+    <section className="py-12 md:py-16 bg-white font-inter relative overflow-hidden">
       <style>{customStyles}</style>
       <div className="max-w-4xl mx-auto px-6">
         

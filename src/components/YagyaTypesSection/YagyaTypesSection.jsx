@@ -122,10 +122,10 @@ const YagyaTypesSection = () => {
     // w-full on mobile, and responsive fractional widths on tablet/desktop
     <div className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-full snap-center p-4">
       <div className={`
-        h-full p-6 rounded-2xl bg-white shadow-xl transition-all duration-500
+        h-full p-6 rounded-2xl bg-white shadow-xl border-2 border-amber-400 transition-all duration-500
         transform hover:scale-[1.05] hover:shadow-2xl hover:rotate-z-1
         cursor-pointer
-        border-4 border-transparent ${hoverBorder}
+         ${hoverBorder}
         flex flex-col items-center text-center
       `}>
         
@@ -143,7 +143,7 @@ const YagyaTypesSection = () => {
           />
         </div>
         <h3 className="text-xl font-extrabold text-amber-400 mb-2">{title}</h3>
-        <p className="text-sm text-amber-600 leading-normal">{desc}</p>
+        <p className="text-lg text-amber-600 font-serif">{desc}</p>
       </div>
     </div>
   );
@@ -161,7 +161,7 @@ const YagyaTypesSection = () => {
         <h2 className="text-4xl md:text-5xl font-extrabold text-center text-amber-800 mb-4 drop-shadow-sm">
           A Path for Every Need
         </h2>
-        <p className="text-xl text-center text-amber-500 mb-12 max-w-3xl mx-auto">
+        <p className="text-xl text-center font-serif text-amber-600 mb-12 max-w-3xl mx-auto">
           Select the Yagya aligned with your specific spiritual goal, planetary need, or life challenge.
         </p>
 

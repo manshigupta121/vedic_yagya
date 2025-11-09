@@ -75,7 +75,7 @@ const customStyles = `
 
 const TrustAuthenticitySection = () => {
   return (
-    <section className="py-16 md:py-24 bg-amber-50 font-inter relative overflow-hidden">
+    <section className="py-16 md:py-24 bg-white font-inter relative overflow-hidden">
       <style>{customStyles}</style>
       <div className="max-w-6xl mx-auto px-6">
         
@@ -94,13 +94,13 @@ const TrustAuthenticitySection = () => {
             return (
               <div 
                 key={index} 
-                className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-amber-400 
+                className="bg-white p-6 rounded-xl shadow-lg border-2 border-amber-400 
                            flex flex-col items-center text-center transition-all duration-300 
-                           card-hover-effect"
+                           hover:card-hover-effect "
               >
                 <IconComponent className={`w-12 h-12 mb-4 ${point.color}`} strokeWidth={1.5} />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{point.title}</h3>
-                <p className="text-gray-700 text-base">{point.description}</p>
+                <h3 className="text-xl font-bold text-amber-500 mb-2">{point.title}</h3>
+                <p className="text-amber-700 text-base">{point.description}</p>
               </div>
             );
           })}
